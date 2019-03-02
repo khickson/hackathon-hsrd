@@ -10,6 +10,13 @@ body {
 }
 
 
-.flex-fill {
-    flex:1 1 auto;
-}
+
+.jumbotron {
+    color: white;
+    background-image: linear-gradient(#FAEAC6, #8DCDE6); /* Standard syntax (must be last) */
+    /*background-image: url("./design/assets/home-bg.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
