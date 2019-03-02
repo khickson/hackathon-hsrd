@@ -10,19 +10,43 @@ body {
 }
 
 
+#sub-header-text {
+  
+color: #104B62;
+    text-align: right;
+}
+
+#sub-header-text-paragraph {
+
+    font-size: 2em;
+    color: #104B62;
+
+}
+
 #main-header-text {
     font-family: 'Rubik', sans-serif;
-    padding-top: 40%;
+    padding-top: 20%;
     letter-spacing: 50px;
+    font-size: 5em;
+color: #104B62;
 }
 
 
 .jumbotron {
-    color: white;
+    color: black;
     background-image: linear-gradient(#FAEAC6, #8DCDE6); /* Standard syntax (must be last) */
     /*background-image: url("./design/assets/home-bg.png"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    margin-bottom: 0rem;
+  }
+
+
+
+  .selection-bar {
+
+    height:150px;
+    background-color:#FAEAC6
   }
