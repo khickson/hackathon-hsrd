@@ -10,6 +10,12 @@ body {
 }
 
 
+#main-header-text {
+    font-family: 'Rubik', sans-serif;
+    padding-top: 40%;
+    letter-spacing: 50px;
+}
+
 
 .jumbotron {
     color: white;
