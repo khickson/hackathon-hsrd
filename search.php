@@ -1,10 +1,7 @@
 <?php
 
-
 include ("dbconn.inc.php");
 $conn = dbConnect();
-
-
 
 ?>
 
@@ -136,13 +133,12 @@ $conn = dbConnect();
 				</div>
 				<div class="large-12 cell">
 				<ul class="menu">
-<li><input type="search" placeholder="Search"></li>
-<li><button type="button" class="button">-></button></li>
 
 
-<h2>SEARCH</h2>
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+
+<li><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name"></li>
 
 <ul id="myUL">
 
@@ -182,12 +178,6 @@ function myFunction() {
     }
 }
 </script>
-
-
-
-
-
-
 
 
 
