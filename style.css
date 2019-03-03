@@ -10,6 +10,12 @@ body {
 }
 
 
+.center {
+
+    text-align: center;
+}
+
+
 #sub-header-text {
   
 color: #104B62;
@@ -32,7 +38,7 @@ color: #104B62;
 }
 
 
-.jumbotron {
+.homepage-jumbo {
     color: black;
     background-image: linear-gradient(#FAEAC6, #8DCDE6); /* Standard syntax (must be last) */
     /*background-image: url("./design/assets/home-bg.png"); */
@@ -46,7 +52,45 @@ color: #104B62;
 
 
   .selection-bar {
-
+      
+  padding-top: 2.5rem;
+width:100%;
+margin: auto;
     height:150px;
     background-color:#FAEAC6
+    
+  }
+
+  .selection-bar-inner {
+    text-align: center;
+
+  }
+
+
+
+
+
+
+  .header-bar {
+          
+  padding-top: 2.5rem;
+  width:100%;
+  margin: auto;
+      height:150px;
+      background-color:#FAEAC6
+  }
+
+
+
+  
+
+.search-jumbo {
+    color: black;
+    background-image: linear-gradient(#8DCDE6, #FAEAC6); /* Standard syntax (must be last) */
+    /*background-image: url("./design/assets/home-bg.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 0rem;
   }

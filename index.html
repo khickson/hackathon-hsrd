@@ -16,7 +16,7 @@
   </head>
   <body>
 
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid homepage-jumbo">
         <div class="container">
 
             <div id="sub-header-text">
@@ -47,59 +47,33 @@ $(window).on("resize", function() {
   $(".jumbotron").css({ height: $(window).height() + "px" });
 });
 
-
-
 </script>
 
 
-<div class="selection-bar">
+<div class="selection-bar center" >
 
+    <div class="election-bar-inner">
+
+        <div class="btn-group">
+
+            <h1 id="dropdown-iam">I Am A </h1>
+
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  __________________________
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Parent</a>
+                  <a class="dropdown-item" href="#">Student</a>
+                  <a class="dropdown-item" href="#">Young Adult</a>
+                  <a class="dropdown-item" href="#">Researcher</a>
+                </div>
+              </div>
+
+            </div>
 
 
 </div>
-
-
-
-      
-      <div id="mmenu_screen" class="container-fluid main_container d-flex">
-          <div class="row flex-fill">
-              <div class="col-sm-6 h-100">
-                  <div class="row h-50">
-                      <div class="col-sm-12" id="mmenu_screen--book">
-                          <!-- Button for booking -->
-                          Booking
-                      </div>
-                  </div>
-                  <div class="row h-50">
-                      <div class="col-sm-12" id="mmenu_screen--information">
-                          <!-- Button for information -->
-                          Info
-                      </div>
-                  </div>
-              </div>
-              <div class="col-sm-6 mmenu_screen--direktaction flex-fill">
-                  <!-- Button for direktaction -->
-                  Action
-              </div>
-          </div>
-      </div>
-
-
-
-
-    <!-- Single button -->
-    <div class="btn-group">
-        <h4>I Am A: </h4>
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            ___________ <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-            <li><a href="#">Parent</a></li>
-            <li><a href="#">Student</a></li>
-            <li><a href="#">Young Adult</a></li>
-            <li><a href="#">Researcher</a></li>
-        </ul>
-    </div>
+  
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
