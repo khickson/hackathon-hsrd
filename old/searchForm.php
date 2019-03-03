@@ -52,6 +52,9 @@ $conn = dbConnect();
 #myUL li a:hover:not(.header) {
   background-color: #eee;
 }
+
+
+
 </style>
 </head>
 <body>
@@ -71,15 +74,12 @@ if($stmt->prepare($sql)){
     $stmt->store_result();
     $stmt->bind_result($TAG_ID, $TAG_NAME);
     while($stmt->fetch()){
-        echo "<li><a href='#'>$TAG_NAME</a></li>";
+        echo "<li><a href='http://howsafearedrugs.khh9106.uta.cloud/results.php?tag=$TAG_ID'>$TAG_NAME</a></li>";
     }
     $stmt->close();
 }
 
-
-
 ?>
-
 
 </ul>
 
